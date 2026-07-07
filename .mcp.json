@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "terrarium": {
+      "type": "http",
+      "url": "https://www.tryterrarium.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${TERRARIUM_PAT:-}"
+      }
+    }
+  }
+}

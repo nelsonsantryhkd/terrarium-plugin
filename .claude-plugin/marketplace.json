@@ -1,0 +1,12 @@
+{
+  "name": "terrarium",
+  "description": "Terrarium — human visual review for agent-built HTML: publish, pull anchored comments, push fixes, repeat until approved.",
+  "owner": { "name": "Nelson Santry" },
+  "plugins": [
+    {
+      "name": "terrarium",
+      "source": "./",
+      "description": "Share the HTML you build with humans for visual review: publish artifacts, pull their anchored comments, push fixed versions, and repeat until approved."
+    }
+  ]
+}

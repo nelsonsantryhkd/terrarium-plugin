@@ -1,0 +1,11 @@
+{
+  "name": "terrarium",
+  "displayName": "Terrarium",
+  "description": "Share the HTML you build with humans for visual review: publish artifacts, pull their anchored comments, push fixed versions, and repeat until approved.",
+  "version": "0.1.0",
+  "author": { "name": "Nelson Santry" },
+  "homepage": "https://www.tryterrarium.com",
+  "repository": "https://github.com/nelsonsantryhkd/terrarium-plugin",
+  "license": "MIT",
+  "keywords": ["mcp", "html", "artifacts", "review", "feedback", "collaboration"]
+}
