@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.nelsonsantryhkd/terrarium",
+  "title": "Terrarium",
+  "description": "Publish HTML artifacts for human visual review: pull anchored comments, push fixed versions, repeat until approved.",
+  "repository": {
+    "url": "https://github.com/nelsonsantryhkd/terrarium-plugin",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "websiteUrl": "https://www.tryterrarium.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.tryterrarium.com/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <PAT> — mint a personal access token at https://www.tryterrarium.com/connect",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
