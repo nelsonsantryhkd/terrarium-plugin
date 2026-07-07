@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.nelsonsantryhkd/terrarium",
   "title": "Terrarium",
-  "description": "Publish HTML artifacts for human visual review: pull anchored comments, push fixed versions, repeat until approved.",
+  "description": "Human visual review for agent-built HTML: publish artifacts, pull anchored comments, push fixes.",
   "repository": {
     "url": "https://github.com/nelsonsantryhkd/terrarium-plugin",
     "source": "github"
